@@ -49,6 +49,18 @@ public class Solution {
         @Override
         public void run() {
             //write your code here
+            for(String action : OnlineGame.actions){
+                try{
+                    Thread.sleep(1000 / rating);
+                    System.out.println(this.getName() + ":" + action);
+                    if(action.equals("Kill enemies") && !OnlineGame.isWinnerFound){
+                        System.out.println(this.getName() + ":won!");
+                        OnlineGame.isWinnerFound = true;
+                    }
+                }catch (InterruptedException e){
+                    System.out.println(this.getName() + ":lost");
+                }
+            }
         }
     }
 }
