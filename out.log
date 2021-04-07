@@ -19995,3 +19995,17 @@
 2021-04-05 17:17:55 INFO  ApacheHttpClient.getTask(480) - responseCode = 200
 2021-04-05 17:17:55 INFO  ApacheHttpClient.getTask(480) - responseCode = 200
 2021-04-05 17:17:55 INFO  PluginProjectService.dispose(42) - PluginProjectService disposed.
+2021-04-06 00:08:21 INFO  ProjectStartupHandler.runActivity(72) - ---------- Project opened ----------
+2021-04-06 00:08:21 INFO  ProjectStartupHandler.runActivity(73) - ---------- Version 3.45 ----------
+
+2021-04-06 00:08:21 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2021-04-06 00:08:21 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2021-04-06 00:08:21 INFO  ApacheHttpClient.refreshUserInfo(302) - responseCode = 200
+2021-04-06 00:08:21 INFO  ApacheHttpClient.refreshUserInfo(308) - User information received.
+2021-04-06 00:08:21 INFO  ApacheHttpClient.startGA(35) - GAService started.
+2021-04-06 00:08:21 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2021-04-06 00:09:21 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2021-04-06 00:10:21 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2021-04-06 00:10:57 INFO  ProjectStartupHandler.projectClosing(153) - ---------- Project closed ----------
+
+2021-04-06 00:10:57 INFO  PluginProjectService.dispose(42) - PluginProjectService disposed.
